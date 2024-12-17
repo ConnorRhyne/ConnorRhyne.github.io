@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Connor Rhyne</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Kyle.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Overlay opacity */
+    backdrop-filter: blur(5px); /* Blur effect */
+    z-index: -1; /* Send behind content */
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Background for readability */
+    border-radius: 8px;
+}
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+            text-align: center;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-top: 0;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-list li {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-list li:hover {
+            background-color: #f1f1f1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-list a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2em;
+            display: block;
+        }
+        .project-list a:hover {
+            text-decoration: underline;
+        }
+        .project-description {
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555;
+        }
+		
+		.project-image {
+    width: 100%; /* Full width of its container */
+    max-height: 200px; /* Restrict height to maintain proportion */
+    object-fit: cover; /* Ensure the image is cropped correctly */
+	object-position: 50% 25%;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the image */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Projects</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <h2>Professional Projects</h2>
+    <ul class="project-list">
+       <li>
+   <a href="Interactive.html">
+        Interactive Learning Module Development
+    </a>
+    <p class="project-description">
+This project focused on designing and developing a personalized, interactive learning module for employees of a theoretical company. By employing a structured approach to instructional design, I ensured that the training addressed the company's specific needs, closing gaps between current performance levels and desired outcomes.</li>
+        <li>
+            <a href="https://www.aggievanguard.org/" target="_blank">Men's Organization website</a>
+            <p class="project-description">This website was something that I built for my mens organization. </p>
+        </li>
+        <li>
+    <a href="Capstone.html">
+        <img src="groupphoto.jpg" alt="Capstone Project Screenshot" class="project-image">
+        Senior Capstone - Optimizing Business Process Workflows
+    </a>
+    <p class="project-description">
+        As part of a multidisciplinary team, I collaborated on a comprehensive project aimed at improving compliance and risk management processes within AgriLife's ARCMTS business operations. Our work involved conducting a detailed risk analysis to identify vulnerabilities, designing process improvement diagrams with compliance checkpoints, and developing actionable recommendations to enhance data security and operational efficiency. The project culminated in a professional presentation to stakeholders, showcasing innovative strategies aligned with regulatory standards and organizational goals.
+    </p>
+</li>
+		
+	
+        <!-- Add more projects as needed -->
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2024 Connor Rhyne. All rights reserved.</p>
+    <div>
+        <a href="https://linkedin.com/in/connorrhyne" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/ConnorRhyne" target="_blank">GitHub</a>
+    </div>
+</footer>
+<style>
+    footer a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</body>
+</html>
